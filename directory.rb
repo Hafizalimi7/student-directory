@@ -49,5 +49,7 @@ end
   
 students = input_students
 print_header
-print(students)
+if students.length > 0
+  print(students)
+end
 print_footer(students)
